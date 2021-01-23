@@ -36,7 +36,8 @@ const styles = StyleSheet.create({
         flex: 1,
         textAlign: "center",
         fontFamily: "Roboto_400Regular",
-        fontSize: 24
+        fontSize: 24,
+        fontWeight: "bold"
     }
 });
 
