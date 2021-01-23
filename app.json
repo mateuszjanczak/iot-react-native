@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "iot-react-native",
-    "slug": "iot-react-native",
+    "name": "Internet of Things",
+    "slug": "iot",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon-iot.png",
@@ -23,7 +23,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon-iot.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.mateuszjanczak.iot"
     },
     "web": {
       "favicon": "./assets/favicon.png"
