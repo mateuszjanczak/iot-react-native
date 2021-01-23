@@ -18,7 +18,7 @@ class Header extends React.Component {
 
 const styles = StyleSheet.create({
     header: {
-        flex: 0.08,
+        paddingVertical: 8,
         backgroundColor: "white",
         flexDirection: "row",
         justifyContent: "center",
@@ -35,22 +35,8 @@ const styles = StyleSheet.create({
     headerText: {
         flex: 1,
         textAlign: "center",
-        fontFamily: "Roboto_400Regular"
-    },
-
-    container: {
-        flex: 0.92,
-        backgroundColor: "silver"
-    },
-
-    internetError: {
-        backgroundColor: "red"
-    },
-
-    internetErrorText: {
-        textAlign: "center",
-        color: "white",
-        padding: 8
+        fontFamily: "Roboto_400Regular",
+        fontSize: 24
     }
 });
 
